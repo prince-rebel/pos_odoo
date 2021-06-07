@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    
+    <t t-name="DashBoardButton">   
+      <div class="rightpane">
+        <table class="layout-table">
+        <tr class="header-row">
+                        <td class="header-cell">
+                            <span class="placeholder-ProductCategoriesWidget" />
+                        </td>
+                    </tr>
+
+                    <tr class="content-row">
+                        <td class="content-cell">
+                            <div class="content-container">
+                                <span class="placeholder-ProductListWidget" />
+                            </div>
+                        </td>
+                    </tr>
+          <!-- <tr>
+              <td>
+                <button style=" background-color:#ff7f7f;font-size:x-large;width: 100%;height: 265px;color:white;" onclick="document.getElementById('id02').style.display='block'">DEPOT ET RETRAIT DE COLIS</button>
+              </td>
+          </tr> -->
+            
+         </table>
+      </div>  
+            <div id="id02" class="w3-modal"  style="padding-top: 15px;">
+    <div class="w3-modal-content w3-card-4" style="width: 100%;height: 100%;">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id02').style.display='none'" 
+        class="w3-button w3-display-topright">X</span>
+        <h2>Magasin</h2>
+      </header>
+      <div class="w3-container" style="width: 100%;height: 95%;">
+        <iframe src="https://wikipedia.com" style="width: 100%;height: 95%;"></iframe>
+        <footer class="w3-container w3-red w3-display-container">
+        <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-red w3-display-right">Close</span>
+      </footer>
+      </div>
+      
+    </div>
+  </div>
+ </t>
+ 
+
+
+</templates>

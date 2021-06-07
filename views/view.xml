@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <template id="pos_perso" inherit_id="point_of_sale.assets">
+            <xpath expr="." position="inside">
+                <link rel="stylesheet" type="text/css" href="/pos_perso/static/src/css/action_button.css"/>
+                <script type="text/javascript" src="/pos_perso/static/src/js/action_button.js"/>
+                 <link rel="stylesheet" type="text/css" href="/pos_perso/static/src/css/style.css"/>
+                <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/> -->
+                <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+            </xpath>
+        </template>
+    </data>
+    
+</odoo>
